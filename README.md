@@ -60,4 +60,16 @@ BibTeX sugerido:
 
 ```bibtex
 @article{Villa Vargas_Hurtado Avilés_Climent Hernández_2026, title={Cuando México tiembla: la historia contada por los datos}, volume={4}, url={https://azcatl.azc.uam.mx/index.php/azcatl/article/view/75}, DOI={10.24275/AZC2026E1004}, abstractNote={&amp;lt;p&amp;gt;Los sismos son un fenómeno natural impredecible y con un alto impacto. En México, el Servicio Sismológico Nacional genera información detallada de los sismos ocurridos en el país. Aunque valiosa, esta información no siempre es fácil de comprender debido al nivel técnico. Este trabajo propone un sistema que transforma la información sísmica en representaciones visuales, lo que facilita el análisis; adicionalmente, puede relacionar información sísmica con información demográfica y económica del Instituto Nacional de Estadística y Geografía para realizar análisis más amplios. Para garantizar el acceso a este sistema, se utilizan tecnologías abiertas y distribución libre a todos los usuarios interesados.&amp;lt;span class=&amp;quot;Apple-converted-space&amp;quot;&amp;gt; &amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;}, number={6}, journal={AZCATL Revista de Divulgación en Ciencias, Ingeniería e Innovación }, author={Villa Vargas, José Manuel and Hurtado Avilés, Gabriel and Climent Hernández, José Antonio}, year={2026}, month={mar.}, pages={28–33} }
+S
+## Enriquecimiento del Data Warehouse con Catálogo Oficial SSN (CDMX)
+**Autor:** Emmanuel Morales González ([@EMMANUELG15](https://github.com/EMMANUELG15))  
+**DOI del Catálogo SSN:** [10.21766/SSNMX/EC/MX](https://doi.org/10.21766/SSNMX/EC/MX)  
+**DOI del Artículo de Referencia:** [10.24275/AZC2026E1004](https://doi.org/10.24275/AZC2026E1004)  
+**Fuente Primaria:** Catálogo del Servicio Sismológico Nacional (SSN - UNAM), México.
+
+### Descripción del aporte:
+* Archivo de ingesta: `sql/06-enriquecimiento_sismos_ssn_cdmx.sql`.
+* Secuencia continuada a partir del ID `319592` hasta el `319625`.
+* 34 sismos verificados registrados en demarcaciones de la Ciudad de México (Coyoacán, Álvaro Obregón, Benito Juárez, Cuajimalpa, Iztapalapa, Tlalpan, Venustiano Carranza, Tláhuac, Xochimilco y Milpa Alta).
+* Población y métricas de impacto calculadas para la entidad federativa CDMX (`id_zonas = 9`, `id_economia = 9`).
 ```
